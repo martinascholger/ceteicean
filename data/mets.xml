@@ -1,0 +1,854 @@
+
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:t="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <mets:dmdSec ID="DMD.1">
+    <mets:mdWrap MDTYPE="TEIHDR" MIMETYPE="text/xml">
+      <mets:xmlData>
+        <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+          <fileDesc>
+            <titleStmt>
+              <title type="main">Notizbuch Hartmut Skerbisch (Inventarnr. 1)</title>
+              <author>Hartmut Skerbisch</author>
+              <funder>
+                <orgName>Verein der Freunde von Hartmut Skerbisch</orgName>
+              </funder>
+              <respStmt xml:id="MS">
+                <persName ref="#MS" xml:id="d1e25">
+                  <forename>Martina</forename>
+                  <surname>Scholger</surname>
+                </persName>
+                <resp>Transkription</resp>
+                <resp>Kodierung</resp>
+                <resp>Digitale Edition</resp>
+              </respStmt>
+            </titleStmt>
+            <publicationStmt>
+              <publisher>
+          Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities, Universität Graz
+        </publisher>
+              <pubPlace>
+          Graz     
+        </pubPlace>
+              <idno type="PID">o:sker.01</idno>
+              <date from="2013" to="2018">
+          2013-2018
+        </date>
+              <availability>
+                <p>Available for non-commercial use, according to the terms of the <ref target="http://creativecommons.org/choose/results-one?jurisdiction=uk&amp;version=2.0&amp;license_code=by-nc" xml:id="ham-1603-22275x-bli-c01.xml-44"> Creative Commons license, attribution non-commercial </ref> .</p>
+              </availability>
+            </publicationStmt>
+            <notesStmt>
+              <note resp="#MS">
+          Die Transkription entstand auf Basis der Digitalisate. Unsichere Stellen wurden im Original überprüft. 
+        </note>
+            </notesStmt>
+            <sourceDesc>
+              <bibl ref="http://gams.uni-graz.at/o:sker.01" xml:id="d1e79">
+                <author>Skerbisch, Hartmut, 1945-2009</author>
+                <title></title>
+                <date from="1969-06-21" to="1970-09-06">Sommer 1969 bis 6.9.1970</date>
+              </bibl>
+              <msDesc>
+                <msIdentifier>
+                  <repository>http://gams.uni-graz.at/o:sker.01</repository>
+                </msIdentifier>
+                <msContents>
+                  <p></p>
+                </msContents>
+                <physDesc>
+                  <objectDesc form="Schulheft">
+                    <p>
+                              Schulheft mit 42 Seiten (+4 Umschlag), unliniert
+                          </p>
+                    <p>Roter Einband, mit Heftklammern gebunden</p>
+                    <p>
+                      <dimensions>
+                        <height>210mm</height>
+                        <width>148mm</width>
+                      </dimensions>
+                    </p>
+                    <p>
+                              Eine Doppelseite in der Mitte entfernt (zwischen Scan 01-026.tif und 01-027.tif; d.h. 13r, 13v, 14r, 14v fehlen); eine Seite herausgerissen (zwischen 01-028.tif und 01-029.tif; d.h. 16r, 16v fehlen); eine Seite herausgerissen (zwischen 01-032.tif und 01-033.tif; d.h. 19r, 19v fehlen); eine Seite herausgerissen (zwischen 01-040.tif und 01-041.tif; d.h. 24r, 24v fehlen) 
+                          </p>
+                  </objectDesc>
+                </physDesc>
+              </msDesc>
+            </sourceDesc>
+          </fileDesc>
+          <encodingDesc>
+            <listPrefixDef>
+              <prefixDef ident="pers" matchPattern="([A-Z]+)" replacementPattern="http://glossa.uni-graz.at/archive/objects/o:sker.persons/datastreams/ONTOLOGY/content#$1">
+                <p>Private URIs using the <code>pers</code>
+            prefix are pointers to <gi>person</gi>
+            elements in the personography.xml file.
+            For example, <code>pers:P10014</code>     
+       dereferences to <code>http://glossa.uni-graz.at/archive/objects/o:sker.persons/datastreams/ONTOLOGY/content#P10014</code>.
+          </p>
+              </prefixDef>
+              <prefixDef ident="bibl" matchPattern="([a-z]+[a-z0-9]*)" replacementPattern="http://glossa.uni-graz.at/archive/objects/o:sker.bibliography/datastreams/ONTOLOGY/content#$1">
+                <p> Private URIs using the <code>bibl</code> prefix can be
+            expanded to form URIs which retrieve the relevant
+            bibliographical reference from <code>http://glossa.uni-graz.at/archive/objects/o:sker.bibliography/datastreams/ONTOLOGY/content#L0101</code>.
+          </p>
+              </prefixDef>
+            </listPrefixDef>
+            <charDecl>
+              <glyph xml:id="U27F6">
+                <glyphName>LONG RIGHTWARDS ARROW</glyphName>
+                <mapping type="standard">⟶</mapping>
+                <mapping type="PUA">U+27F6</mapping>
+              </glyph>
+              <glyph xml:id="U27F5">
+                <glyphName>LONG LEFTWARDS ARROW</glyphName>
+                <mapping type="standard">⟵</mapping>
+                <mapping type="PUA">U+27F5</mapping>
+              </glyph>
+              <glyph xml:id="U2013">
+                <glyphName>EN DASH</glyphName>
+                <mapping type="standard">–</mapping>
+                <mapping type="PUA">U+2013</mapping>
+              </glyph>
+              <glyph xml:id="U2198">
+                <glyphName>South east arrow</glyphName>
+                <mapping type="standard">↘</mapping>
+                <mapping type="PUA">U+2198</mapping>
+              </glyph>
+              <glyph xml:id="U21B0">
+                <glyphName>Upwards arrow with tip leftwards</glyphName>
+                <mapping type="standard">↰</mapping>
+                <mapping type="PUA">U+21B0</mapping>
+              </glyph>
+              <glyph xml:id="U8625">
+                <glyphName>Upwards arrow with tip rightwards</glyphName>
+                <mapping type="standard">↱</mapping>
+                <mapping type="PUA">U+8625</mapping>
+              </glyph>
+              <glyph xml:id="U21B2">
+                <glyphName>Downwards arrow with tip leftwards</glyphName>
+                <mapping type="standard">↲</mapping>
+                <mapping type="PUA">U+21B2</mapping>
+              </glyph>
+              <glyph xml:id="U21B4">
+                <glyphName>Rightwards arrow with corner downwards</glyphName>
+                <mapping type="standard">↴</mapping>
+                <mapping type="PUA">U+21B4</mapping>
+              </glyph>
+              <glyph xml:id="U21B3">
+                <glyphName>Downwards arrow with tip rightwards</glyphName>
+                <mapping type="standard">↳</mapping>
+                <mapping type="PUA">U+21B3</mapping>
+              </glyph>
+              <glyph xml:id="U21B5">
+                <glyphName>Downwards arrow with corner leftwards</glyphName>
+                <mapping type="standard">↵</mapping>
+                <mapping type="PUA">U+21B5</mapping>
+              </glyph>
+              <glyph xml:id="U2934">
+                <glyphName>Arrow pointing rightwards then curving upwards</glyphName>
+                <mapping type="standard">⤴</mapping>
+                <mapping type="PUA">U+2934</mapping>
+              </glyph>
+            </charDecl>
+          </encodingDesc>
+          <profileDesc>
+            <textClass>
+              <keywords scheme="cirilo:normalizedPlaceNames">
+                <list></list>
+              </keywords>
+            </textClass>
+          </profileDesc>
+          <revisionDesc>
+            <change when="2015-11-15">Korrekturlesen der Transkription; Kodierung nach dem aktualisierten Schema</change>
+            <change when="2017-02-13">Korrekturlesen der Transkription; Kodierung nach dem aktualisierten Schema</change>
+            <change when="2017-02-14">Austausch RelaxNG gegen XML Schema; Ergänzung listPrefixDef</change>
+          </revisionDesc>
+        </teiHeader>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec ID="AMD.1">    
+<mets:rightsMD ID="RMD.1">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS">
+        <mets:xmlData>
+          <dv:rights xmlns:dv="http://dfg-viewer.de/">
+            <dv:owner></dv:owner>
+            <dv:ownerContact></dv:ownerContact>
+            <dv:ownerLogo></dv:ownerLogo>
+            <dv:ownerSiteURL></dv:ownerSiteURL>
+          </dv:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:digiprovMD ID="PMD.1">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVLINKS">
+        <mets:xmlData>
+          <dv:links xmlns:dv="http://dfg-viewer.de/">
+            <dv:reference></dv:reference>
+            <dv:presentation></dv:presentation>
+          </dv:links>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="DEFAULT">
+      <mets:file ID="IMAGE.001" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.001"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.002" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.002"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.003" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.003"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.004" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.004"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.005" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.005"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.006" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.006"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>      
+        <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.007" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.007"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.008" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.008"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.009" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.009"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.010" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.010"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.011" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.011"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.012" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.012"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.013" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.013"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>            
+</x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.014" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.014"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.015" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.015"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.016" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.016"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.017" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.017"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.018" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.018"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.019" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.019"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.020" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.020"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.021" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.021"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.022" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.022"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.023" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.023"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.024" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.024"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.025" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.025"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.026" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.026"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.027" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.027"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.028" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.028"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.029" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.029"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.030" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.030"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.031" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.031"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.032" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.032"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.033" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.033"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.034" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.034"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.035" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.035"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.036" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.036"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.037" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.037"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.038" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.038"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.039" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.039"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.040" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.040"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.041" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.041"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.042" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.042"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>  
+            <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.043" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.043"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.044" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.044"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.045" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.045"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+      <mets:file ID="IMAGE.046" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="http://gams.uni-graz.at/o:sker.01/IMAGE.046"></mets:FLocat>
+        <mets:FContent>
+          <mets:xmlData>
+            <x:xmpmeta xmlns:x="adobe:ns:meta/">
+              <exif:PixelXDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">1704</exif:PixelXDimension>
+              <exif:PixelYDimension xmlns:exif="http://ns.adobe.com/exif/1.0/">2410</exif:PixelYDimension>
+            </x:xmpmeta>
+          </mets:xmlData>
+        </mets:FContent>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div ID="PHYS.0" TYPE="physSequence">
+      <mets:div ID="HS01_001" LABEL="front-cover-outer" ORDER="1" TYPE="page">
+        <mets:fptr FILEID="IMAGE.001"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_002" LABEL="front-cover-inner" ORDER="2" TYPE="page">
+        <mets:fptr FILEID="IMAGE.002"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_003" LABEL="001r" ORDER="3" TYPE="page">
+        <mets:fptr FILEID="IMAGE.003"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_004" LABEL="001v" ORDER="4" TYPE="page">
+        <mets:fptr FILEID="IMAGE.004"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_005" LABEL="002r" ORDER="5" TYPE="page">
+        <mets:fptr FILEID="IMAGE.005"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_006" LABEL="002v" ORDER="6" TYPE="page">
+        <mets:fptr FILEID="IMAGE.006"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_007" LABEL="003r" ORDER="7" TYPE="page">
+        <mets:fptr FILEID="IMAGE.007"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_008" LABEL="003v" ORDER="8" TYPE="page">
+        <mets:fptr FILEID="IMAGE.008"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_009" LABEL="004r" ORDER="9" TYPE="page">
+        <mets:fptr FILEID="IMAGE.009"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_010" LABEL="004v" ORDER="10" TYPE="page">
+        <mets:fptr FILEID="IMAGE.010"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_011" LABEL="005r" ORDER="11" TYPE="page">
+        <mets:fptr FILEID="IMAGE.011"></mets:fptr>     
+ </mets:div>
+      <mets:div ID="HS01_012" LABEL="005v" ORDER="12" TYPE="page">
+        <mets:fptr FILEID="IMAGE.012"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_013" LABEL="006r" ORDER="13" TYPE="page">
+        <mets:fptr FILEID="IMAGE.013"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_014" LABEL="006v" ORDER="14" TYPE="page">
+        <mets:fptr FILEID="IMAGE.014"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_015" LABEL="007r" ORDER="15" TYPE="page">
+        <mets:fptr FILEID="IMAGE.015"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_016" LABEL="007v" ORDER="16" TYPE="page">
+        <mets:fptr FILEID="IMAGE.016"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_017" LABEL="008r" ORDER="17" TYPE="page">
+        <mets:fptr FILEID="IMAGE.017"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_018" LABEL="008v" ORDER="18" TYPE="page">
+        <mets:fptr FILEID="IMAGE.018"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_019" LABEL="009r" ORDER="19" TYPE="page">
+        <mets:fptr FILEID="IMAGE.019"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_020" LABEL="009v" ORDER="20" TYPE="page">
+        <mets:fptr FILEID="IMAGE.020"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_021" LABEL="010r" ORDER="21" TYPE="page">
+        <mets:fptr FILEID="IMAGE.021"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_022" LABEL="010v" ORDER="22" TYPE="page">
+        <mets:fptr FILEID="IMAGE.022"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_023" LABEL="011r" ORDER="23" TYPE="page">
+        <mets:fptr FILEID="IMAGE.023"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_024" LABEL="011v" ORDER="24" TYPE="page">
+        <mets:fptr FILEID="IMAGE.024"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_025" LABEL="012r" ORDER="25" TYPE="page">
+        <mets:fptr FILEID="IMAGE.025"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_026" LABEL="012v" ORDER="26" TYPE="page">
+        <mets:fptr FILEID="IMAGE.026"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_027" LABEL="013r" ORDER="27" TYPE="page">
+        <mets:fptr FILEID="IMAGE.027"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_028" LABEL="013v" ORDER="28" TYPE="page">
+        <mets:fptr FILEID="IMAGE.028"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_029" LABEL="014r" ORDER="29" TYPE="page">
+        <mets:fptr FILEID="IMAGE.029"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_030" LABEL="014v" ORDER="30" TYPE="page">
+        <mets:fptr FILEID="IMAGE.030"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_031" LABEL="015r" ORDER="31" TYPE="page">
+        <mets:fptr FILEID="IMAGE.031"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_032" LABEL="015v" ORDER="32" TYPE="page">
+        <mets:fptr FILEID="IMAGE.032"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_033" LABEL="016r" ORDER="33" TYPE="page">
+        <mets:fptr FILEID="IMAGE.033"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_034" LABEL="016v" ORDER="34" TYPE="page">
+        <mets:fptr FILEID="IMAGE.034"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_035" LABEL="017r" ORDER="35" TYPE="page">
+        <mets:fptr FILEID="IMAGE.035"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_036" LABEL="017v" ORDER="36" TYPE="page">
+        <mets:fptr FILEID="IMAGE.036"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_037" LABEL="018r" ORDER="37" TYPE="page">
+        <mets:fptr FILEID="IMAGE.037"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_038" LABEL="018v" ORDER="38" TYPE="page">
+        <mets:fptr FILEID="IMAGE.038"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_039" LABEL="019r" ORDER="39" TYPE="page">
+        <mets:fptr FILEID="IMAGE.039"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_040" LABEL="019v" ORDER="40" TYPE="page">
+        <mets:fptr FILEID="IMAGE.040"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_041" LABEL="020r" ORDER="41" TYPE="page">
+        <mets:fptr FILEID="IMAGE.041"></mets:fptr>
+      </mets:div>   
+   <mets:div ID="HS01_042" LABEL="020v" ORDER="42" TYPE="page">
+        <mets:fptr FILEID="IMAGE.042"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_043" LABEL="021r" ORDER="43" TYPE="page">
+        <mets:fptr FILEID="IMAGE.043"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_044" LABEL="021v" ORDER="44" TYPE="page">
+        <mets:fptr FILEID="IMAGE.044"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_045" LABEL="022r" ORDER="45" TYPE="page">
+        <mets:fptr FILEID="IMAGE.045"></mets:fptr>
+      </mets:div>
+      <mets:div ID="HS01_046" LABEL="022v" ORDER="46" TYPE="page">
+        <mets:fptr FILEID="IMAGE.046"></mets:fptr>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div ADMID="AMD.1" DMDID="DMD.1" ID="LOG.0" TYPE="monograph">
+      <mets:div ID="LOG.TB.1" LABEL="Abschnitt"></mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:structLink>
+    <mets:smLink xlink:from="LOG.0" xlink:to="PHYS.0"></mets:smLink>
+    <mets:smLink xlink:from="LOG.d1e583" xlink:to="PHYS."></mets:smLink>
+    <mets:smLink xlink:from="LOG.TB.1" xlink:to="PHYS."></mets:smLink>
+  </mets:structLink>
+</mets:mets>
